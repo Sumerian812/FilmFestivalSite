@@ -1,0 +1,8 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Import your extra custom SCSS files
+@import "navbar", "jumbotron", "forms", "card", "grid";

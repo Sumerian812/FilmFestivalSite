@@ -1,0 +1,44 @@
+.jumbotron {
+	// Let jumbotrons fill entire height of row
+	height: 97%; 
+	
+}
+
+@media(min-width: 768px) {
+	#signup {
+		// Pull signup jumbotron to the left on md to lg screens
+		margin-left: -15px;
+		margin-top: 20px;
+	}
+}
+
+
+
+@media(min-width: 768px) {
+	#news {
+		// Pull news jumbotron to the right on md to lg screens
+		margin-right: -15px;
+		margin-top: 20px;
+
+	}
+}	
+
+@media(max-width: 576px) {
+	.text-muted {
+		display: none;
+
+	}
+}	
+
+#info {
+	// Large header in info jumbotron for md to lg screens
+	@media(min-width: 768px) {
+		h1 {
+			font-size: 4.5rem;
+			font-weight: 300; 
+			letter-spacing: 2px;
+			padding-bottom: 10px;
+		}
+	}
+	
+}

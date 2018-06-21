@@ -1,0 +1,38 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ../../node_modules/bootstrap/scss/_variables.scss
+ */
+ 
+		   
+ 
+$primary: #171921 !important;
+
+// Spacing
+$spacers: (6: 77px); 
+
+// Links
+$link-hover-decoration: none;
+
+
+// Dropdown Menu
+$dropdown-bg: rgba(255, 255, 255, 0.8);
+
+// Modals
+$modal-inner-padding:         2rem;
+
+
+
+
+
+
+
+
+
+
